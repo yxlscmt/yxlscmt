@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Stli;
+    src: url("file:///C:/Windows/Fonts/STLITI.TTF");
+}
+
+body{
+    margin: 0;
+    width: auto;
+}
+
+*{
+    margin: 0 auto;
+    font-family: Noto Sans SC;
+}
+
+.top,.contents,.bottom{
+    padding-top: 1em;
+    width: 100%;
+}
+
+.top,.bottom{
+    background: #000;
+    padding-bottom: 1em;
+}
+
+.contents{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.top{
+    background: linear-gradient(#00c0ff,white);
+}
+
+.top>*, .titles .bd{
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.bd{
+    font-weight: bolder;
+    font-size: 1.44em;
+}
+
+.c{
+    font-size: 1.2em;
+}
+
+.chung_img{
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+}
+
+.c2_img{
+    max-height: 85%;
+    object-fit: cover;
+    padding: 1em;
+    background-color: white;
+}
+
+.concepts, .mascots{
+    float: left;
+    margin: 0.5em;
+    padding: 0.75em;
+    overflow: hidden;
+}
+
+.concepts{
+    height: 19.6em;
+    max-width: 14.7em;
+    background-color:rgba(0, 192, 255, 0.33);
+}
+
+.concepts_list .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mascots{
+    height: 14em;
+    background-color:rgba(192, 255, 0, 0.33);
+    display: flex;
+}
+
+.mascots img,.tx{
+    float: left;
+    display: inline;
+}
+
+.tx{
+    margin-left: 1em;
+    overflow: auto;
+}
+
+.concepts:hover{
+    background-color: rgba(0,255,192,0.33);
+}
+
+.mascots:hover{
+    background-color: rgba(255,192,0,0.33);
+}
+
+.boxes{
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.titles{
+    padding: 0.45em;
+    padding-left: 0.75em;
+}
